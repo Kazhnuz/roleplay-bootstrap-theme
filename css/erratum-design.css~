@@ -1,0 +1,322 @@
+/*
+------------------------------------------------- 
+ ERRATUM DESIGN
+
+Thème CSS basé sur Bootstrap, FontAwesome et ClearTypography
+créé pour le site de Dreieacht et du projet Erratum.
+
+CC BY-SA Kazhnuz
+------------------------------------------------- 
+*/
+
+
+/* GENERALITE */
+
+body {
+	font-size:14px;
+}
+
+#site {
+	background-image: url("../images/back2.png"), url("../images/back.png"); /* Une petite image de fond pour éviter d'avoir un vieux fond blanc :p */
+	background-attachment:scroll, scroll;
+   	background-position:top center, top center;
+   	background-repeat: repeat-y , repeat ;
+}
+
+/* HEADER */
+
+header {
+	background-image:url('../images/header.png');
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-color:#60b6ec;
+
+}
+
+
+#headofheader {
+height:200px;
+}
+
+#logo {
+	height:200px;
+	width:auto;
+}
+
+#usermainmenu {
+	font-size:1.15em;
+	text-align:right;
+}
+
+#usermainmenu ul {
+	padding:0.5em;
+	margin-top:0.25em;
+	display:inline-block;
+	border-radius:0.5em;
+	background-color:rgba(0,0,0,0.3);
+}
+
+#usermainmenu ul li {
+	padding:0.4em;
+	display:inline;
+}
+
+#usermainmenu ul li a {
+	color:white;
+}
+
+#usermainmenu ul li a:hover {
+	text-decoration:none;
+}
+
+/* NAVBARS */
+
+.navbar-inverse {
+background: rgb(33,33,33); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(33,33,33,1) 0%, rgba(10,10,10,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(33,33,33,1)), color-stop(100%,rgba(10,10,10,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(33,33,33,1) 0%,rgba(10,10,10,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(33,33,33,1) 0%,rgba(10,10,10,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(33,33,33,1) 0%,rgba(10,10,10,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(33,33,33,1) 0%,rgba(10,10,10,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#0a0a0a',GradientType=0 ); /* IE6-9 */
+border-width:0px;
+border-radius:0px;
+box-shadow : 0px 0px 3px 0px rgba(0,0,0,0.8);
+}
+
+.navbar-default {
+background: rgb(247,247,247); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(224,224,224,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(224,224,224,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(224,224,224,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(224,224,224,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(224,224,224,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(224,224,224,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+border-color: rgba(0,0,0,0.3);
+border-style:solid;
+border-width:1px;
+border-radius:0px;
+box-shadow : 0px 0px 3px 0px rgba(0,0,0,0.3);
+}
+
+.navbar-full {
+border-width:0px;
+border-radius:0px;
+}
+
+/* PANELS */
+
+.badge-danger {
+background-color:#D9534F;
+}
+
+.panel {
+background-color:white;
+box-shadow : 0px 0px 10px 0px rgba(0,0,0,0.2);
+border-color: rgba(0,0,0,0.3);
+border-style:solid;
+border-width:1px;
+margin:0em;
+margin-bottom:3em;
+}
+
+.panel-body {
+padding:3em;
+}
+
+.panel-heading {
+box-shadow : inset 0px 2px 0px 0px rgba(255,255,255,0.3), inset 0px -5px 10px 0px rgba(0,0,0,0.15);
+
+border-color: rgba(0,0,0,0.4);
+border-style:solid;
+border-top:0px;
+border-left:0px;
+border-right:0px;
+border-bottom:1px;
+
+background-image:url('../images/backbuttonandtitles.png');
+}
+
+.panel-primary .panel-heading {
+background-color:#428bca;
+}
+
+.panel-info .panel-heading {
+background-color:#5bc0de;
+}
+
+.panel-success .panel-heading {
+background-color:#5cb85c;
+}
+
+.panel-warning .panel-heading {
+background-color:#f0ad4e;
+}
+
+.panel-danger .panel-heading {
+background-color:#d9534f;
+}
+
+.panel-title {
+	text-align:center;
+	font-size: 1em; 
+	line-height: 1.5em; 
+	padding:0em;
+	margin-bottom:0em;
+	font-weight:600;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:0px;
+	border-color:#666;
+	border-style:dashed;
+	color:white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+/* ITEMLIST */
+
+.list-group {
+border-width:0px;
+}
+
+.list-group-item {
+border-width:0px;
+}
+
+.list-group-item a {
+	color: #666; 
+}
+
+.list-group-item a:hover {
+	color: #666;
+	background-color:#000; 
+	text-decoration:none;
+}
+
+.list-group-item-description {
+width:200px;
+display:inline-block;
+}
+
+.list-group-item-icons {
+width:56px;
+display:inline-block;
+}
+
+.container-fluid {
+padding:0px;
+}
+
+.container-fluid .row {
+padding-left:0px;
+padding-right:0px;
+margin:0px;
+}
+
+.rowpadding {
+margin-bottom:1.5em;
+}
+
+.iconzone {
+margin:auto;
+text-align:center;
+vertical-align:middle;
+padding-top:1em;
+padding-left:23px;
+padding-right:7px;
+display: table;
+height:100%;
+color:#CCC;
+}
+
+.forumicon {
+margin:auto;
+display: table-cell;
+vertical-align:middle;
+height:100%;
+}
+
+.subjecticon {
+color:#CCC;
+}
+
+.subjectname {
+padding-left:1.2em;
+font-size:1.2em;
+vertical-align:middle;
+position:relative;
+top:-0.43em;
+font-weight:600;
+
+}
+
+.author-informations .list-unstyled {
+margin-left:3em;
+}
+
+.message-body {
+padding-top:1em;
+padding-right:4em;
+}
+
+.avatar {
+display:block;
+width:200px;
+margin:auto;
+height:auto;
+margin-bottom:1em;
+}
+
+.message-author {
+
+	text-align:center;
+	font-size: 1.8em; 
+	line-height: 1.5em; 
+	padding:0.1em;
+	/*margin-bottom:0.5em;*/
+	font-weight:600;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:0px;
+	border-color:#666;
+	border-style:dashed;
+
+}
+
+/* BREADCRUMB */
+
+.breadcrumb {
+box-shadow : 0px 0px 10px 0px rgba(0,0,0,0.2);
+border-color: rgba(0,0,0,0.3);
+border-style:solid;
+border-width:1px;
+}
+
+/* BOUTONS */
+
+.btn {
+box-shadow : inset 0px 2px 0px 0px rgba(255,255,255,0.3), inset 0px -5px 10px 0px rgba(0,0,0,0.15), 0px 0px 3px 0px rgba(0,0,0,0.4);
+border-color: rgba(0,0,0,0.4);
+border-style:solid;
+border-width:1px;
+background-image:url('../images/backbuttonandtitles.png');
+}
+
+/* FOOTER */
+
+footer {
+background-color:white;
+margin-bottom:0px;
+padding-bottom:3em;
+}
+
+.creativecommon {
+font-style:italic;
+font-size:small;
+text-align:center;
+}
+
