@@ -1,6 +1,8 @@
 # ROLEPLAY
 
-Juste un petit design fait pour mon blog, que je partage ici sous licence CC BY-SA
+Roleplay est un design basé sur bootstrap3, inspiré des jeux vidéos et des RPG. Il a pour objectif d'offrir un design amusant à des projets de jeu, où tout simplement à des sites qui veulent offrir une esthétique amusante basé sur ce genre d'univers.
+
+Ce design a été créé à l'origine pour mon blog, kazhnuz.space.
 
 ## Credits
 
