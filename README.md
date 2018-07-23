@@ -12,6 +12,8 @@ Ce design a été créé à l'origine pour mon blog, kazhnuz.space.
 
 - [LPC Tile Atlas](http://opengameart.org/content/lpc-tile-atlas) par les contributeurs du projet Liberated Pixel Cup
 
+- [Police d'écriture Saiko Script](https://opengameart.org/content/the-collection-of-8-bit-fonts-for-grafx2-r2) par usr_share
+
 ## Screenshot
 
 ![Screenshot](screenshot.png)
